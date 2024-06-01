@@ -1,2 +1,1 @@
-# render_swiper
-Render wrapper for Swiper
+Render client for swiper.

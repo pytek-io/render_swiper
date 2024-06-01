@@ -1,0 +1,22 @@
+[tool.pdm]
+distribution = true
+
+[tool.pdm.build]
+includes = ["render_swiper"]
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[project]
+name = "render-swiper"
+version = "0.2.0"
+description = ""
+authors = [
+    {name = "fdv1", email = "francois@pytek.io"},
+]
+dependencies = []
+requires-python = "<4.0,>=3.8"
+readme = "README.md"
+license = {text = "MIT"}
+

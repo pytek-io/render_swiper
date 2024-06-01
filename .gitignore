@@ -1,0 +1,5 @@
+render_swiper/js
+lib/node_modules
+lib/swiper
+.pdm-python
+dist

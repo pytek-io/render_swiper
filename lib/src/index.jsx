@@ -1,4 +1,4 @@
-import {registerComponent, registerModuleDeferred} from "render-client";
+import {registerComponent, registerModuleDeferred} from "render";
 
 function register() {
   registerModuleDeferred("swiper", async () => {

@@ -1,5 +1,7 @@
 from render import Component, InputComponent
 
+DYNAMIC = True
+
 
 class Swiper(InputComponent):
     Module = "swiper"

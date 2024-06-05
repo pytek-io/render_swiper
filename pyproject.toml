@@ -3,15 +3,27 @@ distribution = true
 
 [tool.pdm.build]
 includes = ["render_swiper"]
-[build-system]
-requires = ["pdm-backend"]
-build-backend = "pdm.backend"
 
+[tool.hatch]
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.version]
+path = "render_swiper/__init__.py"
+
+[tool.hatch.build]
+include = [
+  "/render_swiper/*.py",
+]
+artifacts = [
+  "/render_swiper/js/*.*",
+]
 
 [project]
 name = "render-swiper"
 version = "0.2.0"
-description = ""
+description = "Render bindings for Swiper"
 authors = [
     {name = "fdv1", email = "francois@pytek.io"},
 ]

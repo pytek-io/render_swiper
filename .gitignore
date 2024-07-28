@@ -1,7 +1,6 @@
 render_swiper/js
 js
-lib/node_modules
-lib/swiper
 .pdm-python
 dist
 render_swiper/__pycache__
+client/node_modules/

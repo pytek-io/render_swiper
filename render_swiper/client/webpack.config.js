@@ -8,9 +8,8 @@ module.exports = (env, argv) => {
     entry: { index: path.resolve(__dirname, "src", "index.jsx") },
     output: {
       publicPath: "/js_files/",
-      path: production ? path.resolve(__dirname, "..", "..") : path.resolve(__dirname, ".."),
-      filename: 'render_swiper/js/index.js',
-      chunkFilename: "render_swiper/js/[contenthash].[name].js",
+      filename: '../../js/index.js',
+      chunkFilename: "../../js/[contenthash].[name].js",
     },
     resolve: {
       extensions: [".tsx", ".ts", ".js", "scss", "css"],
